@@ -146,6 +146,7 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.PLAY_SCALE, 0);                //画面缩放: 0=默认, 1=16:9, 2=4:3, 3=填充, 4=原始, 5=裁剪
         putDefault(HawkConfig.BACKGROUND_PLAY_TYPE, 0);      //后台：0=关闭, 1=开启, 2=画中画
         putDefault(HawkConfig.PLAY_TYPE, 1);                 //播放器: 0=系统, 1=IJK, 2=Exo, 3=MX, 4=Reex, 5=Kodi
+        putDefault(HawkConfig.PLAY_RENDER, 1);               //渲染: 0=TextureView, 1=SurfaceView (SurfaceView 支持硬件 overlay/HDR，4K60 必备)
         putDefault(HawkConfig.IJK_CODEC, "硬解码");           //IJK解码: 软解码, 硬解码
         // 系统选项
         putDefault(HawkConfig.HOME_LOCALE, 0);               //语言: 0=中文, 1=英文
